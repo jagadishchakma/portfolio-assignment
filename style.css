@@ -1,0 +1,96 @@
+.technologies{
+    display: flex;
+    justify-content: space-between;
+}
+.technologies li{
+    list-style: none;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+.project{
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 20px;
+}
+.project h3{
+    color: rgb(86, 142, 192);
+}
+.education p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.skills ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.skills ul li{
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gray;
+}
+.contact{
+    margin-top: 200px;
+}
+.contact input[type="text"]{
+    width: 90%;
+    margin: auto;
+    display: block;
+}
+.contact textarea{
+    width: 95%;
+    margin: auto;
+    display: block;
+
+}
+.contact input[type="submit"]{
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: start;
+    color: rgb(4, 171, 255);
+
+}
+.contact-box{
+    padding: 100px;
+}
+.contact h2{
+    text-align: center;
+}
+@media screen and (min-width: 700px) {
+    .contact{
+        width: 700px;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-bottom: 50px;
+
+    }
+  }
+
+.footer-box{
+    padding: 50px;
+}
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer *{
+    margin: 0;
+    padding: 0
+}
+.footer ul{
+    display: flex;
+    justify-content: center;
+}
+.footer ul li{
+    list-style-type: none;
+    margin-left: 10px;
+}
+.footer ul li:first{
+    margin-left: 0;
+}
