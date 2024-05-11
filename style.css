@@ -1,12 +1,28 @@
+body{
+    background-color: rgb(166 42 68);
+    color: white
+}
+.navbar{
+    background-color: rgb(166 42 68) !important;
+}
+.navbar a{
+    color: #fff;
+}
+.navbar ul li.resume{
+    background-color: rgba(13, 202, 240, 1);
+    border-radius: 5px;
+
+}
 .technologies{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .technologies li{
     list-style: none;
     background-color: gray;
     padding: 5px;
     border-radius: 5px;
+    margin-right: 5px;
 }
 .project{
     border: 1px solid gray;
@@ -94,3 +110,36 @@
 .footer ul li:first{
     margin-left: 0;
 }
+
+.introduction ul{
+    list-style-type: none;
+    padding: 0;
+}
+.introduction ul li{
+    margin-left: 20px;
+    padding: 5px;
+}
+.introduction ul li a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.introduction ul li.resume{
+    background-color: rgba(13, 202, 240, 1);
+    border-radius: 5px;
+}
+.introduction ul li.resume a{
+    color: #ffff;
+}
+
+@media screen and (max-width: 700px) {
+    .project img{
+        height: 250px;
+    }
+    .introduction img{
+        width: 100%;
+    }
+    .navbar ul li.resume{
+        width: 50%;
+        padding-left: 10px;
+    }
+  }
